@@ -1,0 +1,18 @@
+Package: getDDD
+Title: Get WHO Defined Daily Dose
+Version: 0.7
+Authors@R: person("Jean-Paul R.", "Soucy", email = "jeanpaul.r.soucy@gmail.com", role = c("aut", "cre"))
+Description: Download defined daily dose (DDD) information for selected ATC codes from the website of the WHO Collaborating Centre for Drug Statistics Methodology (www.whocc.no).
+Depends: R (>= 3.0.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    curl,
+    RCurl,
+    httr,
+    XML,
+    xml2,
+    rvest,
+    attempt
+RoxygenNote: 6.1.1
